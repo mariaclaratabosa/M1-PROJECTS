@@ -179,7 +179,7 @@ Nesse projeto, desenvolvi uma lâmpada utilizando HTML, CSS e JavaScript, que po
 `flexbox` `backgroung image` `function` `variables` `arithmetics` `data type` `string` `boolean` `conditionals` `methods` `DOM` `event listener` `+`
 
 ## S7-10-M1 - 01/10/23 - "[LISTA DE COMPRAS](https://mariaclaratabosa.github.io/M1-PROJETOS/src/M1-SPRINT-7/S7-10-M1.html)"
-Nesse projeto, desenvolvi uma lista de compras com base em um exemplo fornecido, utilizando HTML, CSS e JavaScripr para listar todos os itens. Dessa forma, desenvolvi uma opção de adicionar as itens manualmente utilizando um formulário e outro input de seleção de forma que o usuário selecionasse a quantidade de cada item, e um botão de envio. Desenvolvi também uma barra de pesquisa para pesquisar os itens na lista e um botão de lixeia para que os itens pudessem ser excluídas de forma manual da lista<br />
+Nesse projeto, desenvolvi uma lista de compras com base em um exemplo fornecido, utilizando HTML, CSS e JavaScript para listar todos os itens. Dessa forma, desenvolvi uma opção de adicionar as itens manualmente utilizando um formulário e outro input de seleção de forma que o usuário selecionasse a quantidade de cada item, e um botão de envio. Desenvolvi também uma barra de pesquisa para pesquisar os itens na lista e um botão de lixeira para que os itens pudessem ser excluídas de forma manual da lista<br />
 <br />
 `img` `input` `sesrc/ect` `parallax` `scrollbar webkit` `input search webkit` `flexbox` `loops` `function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `methods` `arrays` `objects` `DOM` `event listener` `+`
 
