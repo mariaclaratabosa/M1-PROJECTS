@@ -4,7 +4,7 @@ Irei postar todos os meus projetos desenvolvidos durante o bootcamp FullStack na
 <hr />
 
 O `S` significa `SPRINT` ou seja, `S1` significa `SPRINT 1`, e todas as outras SPRINTS seguem a mesma lógica.
-Os números são referentes aos números de cada atividade.
+Os números são referentes aos números de cada atividade. <br />
 O `M` significa `Módulo` ou seja, `M2` significa `Módulo 2`.
 <hr />
 
