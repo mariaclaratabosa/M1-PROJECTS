@@ -9,32 +9,32 @@ O `M` significa `Módulo` ou seja, `M2` significa `Módulo 2`.
 <hr />
 
 ## S1-06-M1 - 11/21/22 - "[MEU WEBSITE](https://mariaclaratabosa.github.io/M1-PROJECTS/src/M1-SPRINT-1/S1-06-M1.html)"
-Nesse projeto, desenvolvi parte de um site com base num exemplo fornecido, utilizando HTML. <br />
+Nesse projeto, desenvolvi parte de um site com base num exemplo fornecido, utilizando HTML <br />
 <br />
 `markup` `title` `hyperlink` `+`
 
 ## S1-12-M1 - 11/22/22 - "[PÁGINA DE PERFIL](https://mariaclaratabosa.github.io/M1-PROJECTS/src/M1-SPRINT-1/S1-12-M1.html)"
-Nesse projeto, desenvolvi uma página de perfil com minhas informações pessoais, utilizando HTML. <br />
+Nesse projeto, desenvolvi uma página de perfil com minhas informações pessoais, utilizando HTML <br />
 <br />
 `list` `hyperlink` `title` `+`
 
 ## S1-18-M1 - 11/23/22 - "[FORMULÁRIO DE CADASTRO](https://mariaclaratabosa.github.io/M1-PROJECTS/src/M1-SPRINT-1/S1-18-M1.html)"
-Nesse projeto, desenvolvi um formulário de instrição, utilizando HTML. <br />
+Nesse projeto, desenvolvi um formulário de instrição, utilizando HTML <br />
 <br />
 `input password` `input radio` `input submit` `+`
 
 ## S1-26-M1 - 11/25/22 - "[BLOG DA KENZIE](https://mariaclaratabosa.github.io/M1-PROJECTS/src/M1-SPRINT-1/S1-26-M1.html)"
-Nesse projeto, desenvolvi um blog simples adicionando 4 artigos do site da Kenzie Academy Brasil, vinculando o link corretamente à página de origem do artigo, utilizando HTML. <br />
+Nesse projeto, desenvolvi um blog simples adicionando 4 artigos do site da Kenzie Academy Brasil, vinculando o link corretamente à página de origem do artigo, utilizando HTML <br />
 <br />
 `article` `hyperlink` `target blank` `input email` `input submit` `+`
 
 ## S2-07-M1 - 11/28/22 - "[MEU SITE](https://mariaclaratabosa.github.io/M1-PROJECTS/src/M1-SPRINT-2/S2-07-M1.html)"
-Nesse projeto, desenvolvi um site cm base em um exemplo fornecido, utilizando HTML e CSS. <br />
+Nesse projeto, desenvolvi um site cm base em um exemplo fornecido, utilizando HTML e CSS <br />
 <br />
 `hyperlink` `font` `color` `text align` `margin` `padding` `text decoration` `+`
 
 ## S2-11-M1 - 11/29/22 - "[BARRA DE NAVEGAÇÃO](https://mariaclaratabosa.github.io/M1-PROJECTS/src/M1-SPRINT-2/S2-11-M1.html)"
-Nesse projeto, desenvolvi uma barra de navegação com base em um exemplo fornecido, utilizando HTML e CSS.<br />
+Nesse projeto, desenvolvi uma barra de navegação com base em um exemplo fornecido, utilizando HTML e CSS<br />
 <br />
 `hyperlink` `margin` `padding` `font` `box shadow` `text align` `text transform` `+`
 
@@ -44,12 +44,12 @@ Nesse projeto, desenvolvi um formulário de newsletter com base em um exemplo fo
 `input email` `input submit` `color` `margin` `padding` `hover` `focus` `border radius` `background color` `+`
 
 ## S2-14-M1 - 11/29/22 - "[BLOG DA KENZIE 2.0](https://mariaclaratabosa.github.io/M1-PROJECTS/src/M1-SPRINT-2/S2-14-M1.html)"
-Nesse projeto, estilizei o blog que foi criado na S1-26-M1 utilizando CSS.<br />
+Nesse projeto, estilizei o blog que foi criado na S1-26-M1 utilizando CSS<br />
 <br />
 `hyperlink` `email input` `input submit` `background image` `margin` `border radius` `border style` `parallax` `scrollbar color` `scrollbar thumb` `scrollbar track` `+`
 
 ## S2-23-M1 - 12/01/22 - "[KENZIEFLIX](https://mariaclaratabosa.github.io/M1-PROJECTS/src/M1-SPRINT-2/S2-23-M1.html)"
-Nesse projeto, desenvolvi um menu inicial similar ao da Netflix, como Kenzieflix, com base em um exemplo fornecido, utilizando HTML e CSS. <br />
+Nesse projeto, desenvolvi um menu inicial similar ao da Netflix, como Kenzieflix, com base em um exemplo fornecido, utilizando HTML e CSS<br />
 <br />
 `img` `figcaptionsrc/ `input submit` `border radius` `hover` `flexbox` `+`
 
