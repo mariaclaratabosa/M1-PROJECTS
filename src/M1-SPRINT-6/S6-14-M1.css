@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body{
+    background-color: #FFF5E1;
+}
+
+.logo{
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    height: 250px;
+    cursor: pointer;
+}
+
+.itens{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 50px;
+}
+
+.produto{
+    border: 2px solid #d6732d;
+    color: #2c2a27;
+    width: 500px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background: #FFE7B6;
+    border-radius: 2px;
+    font-family: 'Comfortaa', cursive;
+    cursor: pointer;
+}
+
+.produto:hover{
+    background: #d6732d;
+    font-weight: bold;
+    transform: scale(1.02);
+}

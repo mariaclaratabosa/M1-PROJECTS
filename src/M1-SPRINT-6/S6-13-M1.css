@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #FFFFFF;
+    padding-top: 60px
+}
+
+header {
+    display: inline;
+    margin-left: -6px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25)
+}
+
+.menu {
+    width: 100%;
+    border-bottom: 20px;
+    position:fixed;
+    top: 0;
+    background-color: #1B1B1B;
+    background: #FFFFFF
+}
+
+.container-1 {
+    max-width: 1300px;
+    margin-left: 80px;
+}
+
+.menu-column {
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.logo {
+    margin-right: auto;
+    cursor: pointer;
+    justify-content: flex-start;
+    margin-left: -60px;
+
+}
+
+.menu-header {
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+}
+
+.botao {
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    color: #0A99FE;
+    background-color: rgba(10, 153, 254, .1);
+    cursor: pointer;
+}
+
+.botao:focus {
+    background-color: #0A99FE;
+    color: #FFFFFF;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-left: 90px;
+    color: #1B1B1B;
+    
+
+}
+
+.productsFrame,
+.productsFigure {
+    display: flex;
+    margin-bottom: 40px;
+    overflow-x: auto;
+    justify-content: center;
+}
+
+.listCardsFrames,
+.listCardsFigures {
+    display: flex;
+}
+
+.cards{
+    list-style: none;
+    height: 275px;
+    width: 207px;
+    margin: 10px;
+    padding: 2px;
+    border: none;
+    border-radius: 5%;
+    align-items: center;
+    text-align: center;
+    background: #e6f4ff;
+    cursor: pointer;
+}
+
+.cards:hover{
+    box-shadow: 5px 2px 2px 2px #868383;
+}
+
+.titulo {
+    font-size: 20px;
+    font-weight: 500;
+    color: #1B1B1B
+}
+
+.preco{
+    font-size: 16px;
+    font-weight: 400;
+    color: #868383
+}
+
+.imagem{
+    height: 170px;
+    width: 211px;
+    margin-top: -1.8px;
+    margin-left: -1.8px ;
+    border-radius: 5% 5% 0 0;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./S7-06-M1.css">
+    <script src="./S7-06-M1.js" defer></script>
+    <title>Lista de tarefas</title>
+</head>
+
+<body>
+    <nav class="menu">
+        <header class="cabecalho">
+            <h2 class="titulo">Lista de tarefas</h2>
+            <div class="pesquisa">
+                <form action="" class="pesquisar">
+                    <div class="barra-de-pesquisa">
+                        <input type="search" id="barra-pesquisa" placeholder="Pesquisa Tarefa">
+                        <input type="submit" value="" id="btn-pesquisar">
+                    </div>
+                </form>
+            </div>
+        </header>
+    </nav>
+    <main class="principal">
+        <section class="section1">
+            <h1>Inserir Tarefa</h1>
+            <form id="task-form" action="">
+                <input type="text" id="task-name" placeholder="Digitar título da tarefa" required>
+                <select id="task-type" required>
+                    <option value="" disabled selected>Selecionar tipo</option>
+                    <option value="urgente">Urgente</option>
+                    <option value="prioritario">Prioritário</option>
+                    <option value="normal">Normal</option>
+                </select>
+                <input type="button" value="Adicionar Tarefa na Lista" onclick="addTask()" class="adc-btn">
+            </form>
+        </section>
+        <section class="section2">
+            <div class="container2">
+                <h1>Tarefas</h1>
+                <ul id="task-list">
+                    <div class="tarefa-estilo">
+                        <span class="marcador"></span>
+                        <h2 class="tarefa"></h2>
+                    </div>
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

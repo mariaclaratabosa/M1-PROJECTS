@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro para evento de tecnologia na Kenzie Academy</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário de cadastro - Evento de tecnologia Kenzie Academy</h1>
+    </header>
+    <form>
+        <label for="nome">Nome completo:</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome aqui" required="true"/><br/>
+        <label for="email">E-mail:</label>
+        <input id="email" type="email" placeholder="Digite seu e-mail aqui" required="true"/><br/>
+        <label for="descricao">O que te motivou a participar do evento?</label>
+        <textarea id="descricao" name="descricao" placeholder="Escreva aqui" cols="30" rows="10"></textarea><br/>
+        <label for="modulo">Qual o seu módulo na Kenzie?</label>
+        <select id="modulo" name="modulo">
+            <otion value="">Selecionar módulo</otion>
+            <option value="M1">M1</option>
+            <option value="M2">M2</option>
+            <option value="M3">M3</option>
+            <option value="M4">M4</option>
+            <option value="M5">M5</option>
+            <option value="M6">M6</option>
+        </select><br/>
+        <label for="senha">Cadastre uma senha:</label>
+        <input type="password" id="senha" name="senha" placeholder="Digite aqui a senha"><br/>
+        <label for="confirmar">Confirme sua senha:</label>
+        <input type="password" id="confirmar" name="senha" placeholder="Digite sua senha novamente"> <br/>
+        <p>Deseja receber novidades por e-mail?</p>
+        <label for="sim">Sim</label>
+        <input type="radio" name="novidades" id="sim">
+        <label for="nao">Não</label>
+        <input type="radio" name="novidades" id="nao">
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

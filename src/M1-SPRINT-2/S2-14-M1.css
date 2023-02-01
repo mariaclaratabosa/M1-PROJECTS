@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    height: 100vh;
+    background-color: #e6e6ff;
+    color: #000000;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-end;
+}
+.cabecalho{
+    display: flex;
+    padding-right: 20%;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.materia {
+    width: 90%;
+    height: 30%;
+    background-color: #b3b3ff;
+    border-style:dashed;
+    border-radius: 2%;
+    border-color: #9999ff;
+    padding: 15px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display:grid;
+}
+
+.titulo {
+    text-align: center;
+    padding: 2.5px;
+}
+
+.formulario {
+    width: 90%;
+    height: 30%;
+    align-items: center;
+    background-color:#ccccff ;
+    border-radius: 2.5%;
+    border-color:#b3b3ff;
+    border-style: dashed;
+    padding: 15px;
+    margin: 10px;
+}
+
+#email {
+    height: 4vh;
+    background-color:#e6e6ff;
+    border-style: solid;
+    border-color: #b3b3ff;
+    margin: 1%;
+    justify-content: center;
+    display: block;
+}
+
+.botao{
+    font-size: 1vw;
+    display: flex;
+    height: 50%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5%;
+    border-style:solid;
+    border: 5px;
+    border-color:#b3b3ff;
+    background-color: #8080ff;
+    cursor: pointer;
+}
+
+.botao:hover{
+    background-color:#9999ff;
+}
+

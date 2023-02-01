@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #f2f2f2;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: -10px;
+    margin-left: -3px;
+    margin-right: -8px;
+}
+
+.titulo{
+    margin-left: 10px;
+}
+
+#barra-pesquisa{
+    border: none;
+    border-radius: 5px;
+    background-color: #cccccc;
+    width: 200px;
+    height: 40px;
+    margin-right: 10px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 3px;
+    outline: none;
+}
+
+.barra-de-pesquisa{
+    margin-top: 15px;
+    width: 250px;
+    height: 40px;
+    border: none !important;
+    border-radius: 5px;
+    background-color: #ccc;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+}
+
+#btn-pesquisar{
+    background-image: url('./img/lupa.png');
+    background-color: #ccc;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: right;
+    width: 2em;
+    height: 2em;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    display: flex;
+    justify-self:  flex-end;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section1{
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 750px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ccc, 10px 5px 15px 2px #555;
+    margin-bottom: 20px;
+}
+
+.section1 h1{
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+#task-form{
+    align-items: center;
+    justify-content: center;
+}
+
+#task-name{
+    border: none;
+    border-radius: 5px;
+    background-color: #cccccc;
+    width: 300px;
+    height: 40px;
+    margin-right: 100px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 3px;
+    outline: none;
+}
+
+#task-type{
+    border: none;
+    border-radius: 5px;
+    background-color: #cccccc;
+    width: 300px;
+    height: 50px;
+    color:#676767;
+    font-family: 'Montserrat', sans-serif;
+    padding: 3px;
+    outline: none;
+}
+
+.adc-btn{
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #3333ff;
+    color: white;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom:50px;
+    width: 710px;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.section2{
+    background-color: white;
+    min-height: 300px;
+    width: 750px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ccc, 10px 5px 15px 2px #555
+}
+
+.section2 h1{
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+#task-list{
+    list-style: disc;
+    display: flex;
+    flex-direction: column;
+}
+
+#tarefa{
+    background-color: #e6e6e6;
+    width: 700px;
+    border-radius: 3px;
+    height: 40px;
+    margin: 10px 0;
+    margin-right: 20px;
+    margin-left: -15px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.urgente{
+    color: red;
+}
+
+.prioritario{
+    color: orange;
+}
+
+.normal{
+    color: green;
+}
+
+.remove-task{
+    background-image: url('./img/lixeira.png');
+    background-color: #e6e6e6;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: right;
+    width: 20px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-self: flex-end;
+}

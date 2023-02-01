@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./S8-01-M1.css">
+    <script src="./S8-01-M1.js" defer></script>
+    <script src="https://kit.fontawesome.com/5e63cbb13d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" href="./img/favicon.png">
+    <title>Weartake</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="div-header">
+            <div class="logo">
+                <h1 class="titulo">Weartake</h1>
+            </div>
+            <nav class="menu">
+                <ul class="menu-itens">
+                    <li class="menu-item todos">Todos</li>
+                    <li class="menu-item acessorios">Acessórios</li>
+                    <li class="menu-item calcados">Calçados</li>
+                    <li class="menu-item camisetas">Camisetas</li>
+                </ul>
+                <label for="toggleBtn" class="toggleBtn">
+                    <i class="fa-solid fa-sun"></i>
+                    <i class="fa-solid fa-moon"></i>
+                    <div class="bgMove"></div>
+                </label>
+            </nav>
+        </div>
+    </header>
+    <main class="principal">
+        <h2 class="sem-produto"></h2>
+        <div class="cards-list">
+            <ul class="lista-produtos">
+
+            </ul>
+        </div>
+        <div class="carrinho">
+            <section class="pesquisa">
+                <form class="form-pesquisa">
+                    <input type="text" class="input-pesquisa" placeholder="Digite aqui sua pesquisa">
+                    <button type="submit" class="btn-pesquisar">Pesquisar</button>
+                </form>
+            </section>
+            <aside class="carrinho-de-compras">
+                <header class="carrinho-cabecalho">
+                    <h2>Carrinho de compras</h2>
+                </header>
+                <section class="carrinho-main">
+                    <div class="carrinho-vazio">
+                        <h3>Carrinho vazio</h3>
+                        <p>Adicione itens</p>
+                    </div>
+                    <ul class="carrinho-produtos">
+    
+                    </ul>
+                </section>
+                <div class="carrinho-rodape">
+                    <div class="carrinho-quantidade">
+                        <p>Quantidade:</p>
+                        <p class="total-itens"></p>
+                    </div>
+                    <div class="carrinho-total">
+                        <p>Total:</p>
+                        <p class="total-preco"></p>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+</body>
+
+</html>

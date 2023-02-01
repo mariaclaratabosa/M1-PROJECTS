@@ -1,0 +1,32 @@
+.title-main {
+    color: black;
+    font-family: 'Segoe UI'; 
+    text-align: center;
+  }
+  
+  .title-main2{
+      color: black;
+      font-family: 'Segoe UI';
+  }
+  
+  .color-blue {
+      color: #3363ff;
+  }
+  
+  .background-blue{
+      color: white;
+      background-color: #3362ff;
+      font-family: 'Segoe UI';
+  }
+  
+  .background-black{
+      color: white;
+      background-color: black;
+      text-align: center;
+      font-family: 'Segoe UI';
+  }
+  
+  .underline {
+      text-decoration: underline;
+      font-family: 'Segoe UI';
+  }

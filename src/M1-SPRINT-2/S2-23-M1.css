@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Devanagari:wght@500;600&display=swap');
+
+body {
+    background-color: #121214;
+    font-family: 'IBM Plex Sans Devanagari', sans-serif;
+}
+
+header{
+    align-items: center;
+    display: flex;
+}
+
+.cabecalho {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+
+.logo {
+    align-items: center;
+    display: flex;
+}
+
+.titulo {
+    align-items: center;
+    text-align: center;
+    color: #f2f2f2;
+}
+
+.perfis {
+    height: 50%;
+    width: 100%;
+    align-items: stretch;
+    display: flex;
+    margin: auto;
+    max-width: 700px;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: space-around;
+}
+
+ul{
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: space-around;
+    list-style: none;
+    color: #6d6d78;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.icons {
+    width: 160px;
+    height: 160px;
+    max-width: 160px;
+    border: none;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.icons:hover{
+    border: solid;
+    border-color: #b2b2b3;
+    box-shadow: 10px 5px 5px #000000;
+    box-sizing: border-box;
+}
+
+.button {
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    margin-top: 5%;
+    border-radius: 10px;
+    height: 65px;
+    width: 250px;
+    background-color: #121214;
+    color: #b2b2b3;
+    border-color: #b2b2b3;
+    border-width: 3px;
+    border-style:solid;
+    font-size: 20px;
+}
+
+button:hover{
+    margin-top: 5%;
+    border-radius: 10px;
+    height: 70px;
+    width: 250px;
+    background-color: #b2b2b3;
+    color: #121214;
+    border-color: #b2b2b3;
+    border-width: 3px;
+    border-style:solid;
+    font-size: 20px;
+    box-sizing: border-box;
+}

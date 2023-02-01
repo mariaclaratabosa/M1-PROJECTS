@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./S7-10-M1.css">
+    <script src="./S7-10-M1.js" defer></script>
+    <title>Lista de Compras</title>
+</head>
+
+<body>
+    <main class="principal">
+        <header class="cabecalho">
+            <img src="./img/lista.png" alt="Imagem de lista" class="imagemLista">
+            <h1 class="titulo">Lista de Compras</h1>
+        </header>
+        <section class="formulario">
+            <h2>Adicionar Itens</h2>
+            <form action="" id="inputItens">
+                <div class="produtos">
+                    <input type="text" id="produto" placeholder="Digite o produto" required>
+                    <input type="number" id="numero" placeholder="Quantidade">
+                </div>
+                <input type="button" value="Adicionar à lista" onclick="addItens()" class="adc-btn">
+            </form>
+        </section>
+        <section class="listaItens">
+            <h2>Itens</h2>
+            <ul id="lista-itens">
+
+            </ul>
+        </section>
+    </main>
+</body>
+
+</html>
