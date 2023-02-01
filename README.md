@@ -159,7 +159,7 @@ Nesse projeto, desenvolvi um catálogo de produtos com base em um exemplo fornec
 `input button` `img` `flexbox` `src/over` `active` `overflow` `console log` `loops` `function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `methods` `arrays` `objects` `DOM` `+`
 
 ## S6-14-M1 - 01/06/23 - "[CAFETERIA](https://mariaclaratabosa.github.io/M1-PROJETOS/src/M1-SPRINT-6/S6-14-M1.html)"
-Para minha próxima atividade, tive que codificar um layout de site com base em um exemplo que foi dado utilizando HTML, CSS e JavaScript para listar todos os produtos dinamicamente.<br />
+Nesse projeto, desenvolvi o layout de um site com base em um exemplo que foi dado, utilizando HTML, CSS e JavaScript, de forma que listasse os produtos dinamicamente, e um evento de clique no produto que mostrava um alert com o preço<br />
 <br />
 `img` `flexbox` `src/over` `console log` `loops` `function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `methods` `arrays` `objects` `DOM` `+`
 
