@@ -1,6 +1,6 @@
 # BOOTCAMP PROJECTS AND ACTIVITIES
 Estarei postando aqui todas as atividades e projetos que tive que codificar durante meu bootcamp Full Stack na Kenzie Academy para que eu possa mostrar meu progresso de No Stack até Full Stack Developer. Este repositório terá quase tudo que fiz durante o `primeiro módulo`, ou `M1` para abreviar.<br />
-[M1](link) | [M2](link)
+[M1](https://mariaclaratabosa.github.io/M1-PROJECTS/) | [M2](link)
 
 <hr />
 
@@ -10,12 +10,12 @@ O `M` significa `Módulos` <strong>por exemplo</strong> `M1` significa `Módulo 
 
 <hr />
 
-## S1-06-M1 - 11/21/22 - "[MEU WEBSITE](https://mariaclaratabosa.github.io/M1-PROJECTS/src/M1-PRINT-1/S1-06-M1.html)"
+## S1-06-M1 - 11/21/22 - "[MEU WEBSITE](https://mariaclaratabosa.github.io/M1-PROJECTS/src/M1-SPRINT-1/S1-06-M1.html)"
 Para minha primeira atividade, tive que codificar parte de um site com base em um exemplo que foi dado usando HTML.<br />
 <br />
 `markup` `title` `hyperlink` `+`
 
-## S1-12-M1 - 11/22/22 - "[PÁGINA DE PERFIL](https://mariaclaratabosa.github.io/M1-PROJECTS/src/M1-PRINT-1-S1-12.html)"
+## S1-12-M1 - 11/22/22 - "[PÁGINA DE PERFIL](https://mariaclaratabosa.github.io/M1-PROJECTS/src/M1-SPRINT-1/S1-12-M1.html)"
 Para minha próxima atividade, tive que codificar uma página de perfil com minhas informações pessoais usando HTML.<br />
 <br />
 `list` `hyperlink` `title` `+`
@@ -180,7 +180,7 @@ Para minha próxima atividade, tive que codificar uma lâmpada usando HTML, CSS 
 <br />
 `flexbox` `backgroung image` `function` `variables` `arithmetics` `data type` `string` `boolean` `conditionals` `methods` `DOM` `event listener` `+`
 
-## S7-10-M1 - 01/10/23 - "[LISTA DE COMPRAS](https://mariaclaratabosa.github.io/M1-PROJECTS/src/M1-SPRINT-7/S7-06-M1.html)"
+## S7-10-M1 - 01/10/23 - "[LISTA DE COMPRAS](https://mariaclaratabosa.github.io/M1-PROJECTS/src/M1-SPRINT-7/S7-10-M1.html)"
 Para minha próxima atividade, tive que codificar uma lista de compras com base em um exemplo que foi dado usando HTML, CSS e JavaScript para listar todos os itens. Para a segunda parte, tive que codificar uma opção para adicionar os itens manualmente usando um formulário, um input para selecionar a quantidade do item e um botão de envio. Para a terceira parte, tive que codificar uma barra de pesquisa para pesquisar os itens la lista e um botão de lixeira para excluir manualmente os itens da lista.<br />
 <br />
 `img` `input` `sesrc/ect` `parallax` `scrollbar webkit` `input search webkit` `flexbox` `loops` `function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `methods` `arrays` `objects` `DOM` `event listener` `+`
