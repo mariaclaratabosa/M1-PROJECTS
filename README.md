@@ -193,5 +193,5 @@ Como projeto final do módulo, desenvolvi um e-commerce seguido fielmente o layo
 <br />
 `favicon` `button` `input search` `flexbox` `webkit scrollbar` `box shadow` `webkit box` `webkit search` `overflow` `float` `loops` `function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `methods` `arrays` `objects` `DOM` `onclick` `+`
 
-</br>
-<h6>Repositório baseado no repositório BOOTCAMP PROJECTS AND ACTIVITIES-M1 de @bitoller, com as devidas autorizações da autora</h6>
+<br />
+<h6> Os códigos desse repositório foram desenvolvidos por mim. O modelo de organização do repositório foi baseado no repositório BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1 de @bitoller, com as devidas autorizações da autora</h6>
