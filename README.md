@@ -1,5 +1,5 @@
 # FULLSTACK BOOTCAMP - PROJETOS - MÓDULO 1
-Irei postar todos os meus projetos desenvolvidos durante o bootcamp FullStack na Kenzie Academy Brasil, a fim de mostrar meu progresso até aqui. Nesse repositório terão os projetos desenvolvidos no `primeiro módulo` ou `M2`<br />
+Irei postar todos os meus projetos desenvolvidos durante o bootcamp FullStack na Kenzie Academy Brasil, a fim de mostrar meu progresso até aqui. Nesse repositório terão os projetos desenvolvidos no `primeiro módulo` ou `M1`<br />
 [M1](https://mariaclaratabosa.github.io/M1-PROJETOS/) | [M2](https://mariaclaratabosa.github.io/M2-PROJETOS/)
 <hr />
 
