@@ -192,3 +192,6 @@ Nesse projeto, desenvolvi uma carrinho de compras com base em um exemplo forneci
 Como projeto final do módulo, desenvolvi um e-commerce seguido fielmente o layout fornecido, utilizando HTML, CSS e JavaScript. A vitrine de produtos e o carrinho foram criados dinamicamente através do DOM. É possível adicionar e remover itens do carrinho, dessa forma, é atualizada a soma dos valores, bem como a contagem de produtos. É possível, também, filtrar itens por categoria ao clicar no botão no topo da página e pesquisar o item pelo nome utilizando a barra de pesquisa. Foi implementado, também, um darkmode<br />
 <br />
 `favicon` `button` `input search` `flexbox` `webkit scrollbar` `box shadow` `webkit box` `webkit search` `overflow` `float` `loops` `function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `methods` `arrays` `objects` `DOM` `onclick` `+`
+
+</br>
+<h6>Repositório baseado no repositório BOOTCAMP PROJECTS AND ACTIVITIES-M1 de @bitoller, com as devidas autorizações da autora</h6>
