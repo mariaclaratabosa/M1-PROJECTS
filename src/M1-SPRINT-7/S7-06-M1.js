@@ -1,97 +1,87 @@
-let chores = [
-  { title: "Pick up after the dog", type: "urgent" },
-  { title: "Do the dishes", type: "urgent" },
-  { title: "Vacuum around", type: "priority" },
-  { title: "Dust the shelves off", type: "normal" },
-];
+let tasks = [];
 
-let form = document.getElementById("form1");
+function addTask() {
+    let taskName = document.getElementById("task-name").value;
+    let taskType = document.getElementById("task-type").value;
 
-function createCards(chores, id) {
-  let elementList = document.createElement("li");
-  let name = document.createElement("span");
-  name.innerText = chores.title;
-  let type = document.createElement("div");
-  type.classList.add("circle");
-  type.classList.add(chores.type);
-  let button = document.createElement("button");
-  button.setAttribute("id", `trash-${id}`);
-  button.setAttribute("onclick", `deleteItem("${chores.title}")`);
-  let imgCard = document.createElement("img");
-  imgCard.src = "./img/trash.svg";
-  imgCard.classList.add("trash");
-  button.append(imgCard);
-  elementList.append(type, name, button);
+    let task = { name: taskName, type: taskType };
 
-  return elementList;
-}
-
-function renderCards(chores) {
-  let choreList = document.querySelector(".choresList");
-  choreList.innerHTML = "";
-  let filteredChores = filterByType(chores);
-  for (let i = 0; i < filteredChores.length; i++) {
-    const render = createCards(filteredChores[i], i);
-    choreList.append(render);
-  }
-}
-
-function filterByType(chores) {
-  const urgent = chores.filter(function (chore) {
-    return chore.type == "urgent";
-  });
-  const priority = chores.filter(function (chore) {
-    return chore.type == "priority";
-  });
-  const normal = chores.filter(function (chore) {
-    return chore.type == "normal";
-  });
-  let filteredChores = [];
-  filteredChores = filteredChores.concat(urgent);
-  filteredChores = filteredChores.concat(priority);
-  filteredChores = filteredChores.concat(normal);
-
-  return filteredChores;
-}
-renderCards(chores);
-
-function receiveInput() {
-  const button = document.querySelector(".submit");
-  button.addEventListener("click", function (event) {
-    event.preventDefault();
-    const inputResult = document.querySelector(".inputText");
-    const selectResult = document.querySelector(".select");
-    if (inputResult.value != "") {
-      if (selectResult.value.toLowerCase() != "choose the type") {
-        chores.push({ title: inputResult.value, type: selectResult.value });
-        form.reset();
-        renderCards(chores);
-      }
+    if (taskName === '' || taskType === '') {
+        alert('Os campos devem ser preenchidos antes de adicionar a tarefa')
+        return
     }
-  });
-}
-receiveInput();
-
-function deleteItem(item) {
-  let id = chores.findIndex(function (chore) {
-    return chore.title.toLowerCase() == item.toLowerCase();
-  });
-  if (id != -1) {
-    chores.splice(id, 1);
-    renderCards(chores);
-  }
-}
-
-function search() {
-  const button = document.querySelector("#search");
-  button.addEventListener("click", function () {
-    const searchResult = document.querySelector(".search").value;
-    let filteredChores = chores.filter(function (element) {
-      return element.title.toLowerCase().includes(searchResult.toLowerCase());
+    tasks.push(task);
+    tasks.sort((a, b) => {
+        if (a.type === b.type) {
+            return 0;
+        }
+        if (a.type === 'urgente') {
+            return -1;
+        }
+        if (b.type === 'urgente') {
+            return 1;
+        }
+        if (a.type === 'prioritario') {
+            return -1;
+        }
+        if (b.type === 'prioritario') {
+            return 1;
+        }
+        return 0;
     });
-    let search = document.getElementById("search-header");
-    search.value = "";
-    renderCards(filteredChores);
-  });
+    updateTaskList();
 }
-search();
+
+function updateTaskList() {
+    let taskList = document.getElementById('task-list')
+    taskList.innerHTML = ''
+    if (tasks.length === 0) {
+        taskList.innerHTML = 'Nenhuma tarefa encontrada'
+        return
+    }
+    for (let i = 0; i < tasks.length; i++) {
+        let task = tasks[i]
+        let taskItem = document.createElement('li')
+        taskItem.innerHTML = task.name
+        taskItem.setAttribute('id', 'tarefa')
+        if (task.type === 'urgente') {
+            taskItem.classList.add('urgente')
+        } if (task.type === 'prioritario') {
+            taskItem.classList.add('prioritario')
+        } if (task.type === 'normal') {
+            taskItem.classList.add('normal')
+        }
+        taskList.appendChild(taskItem)
+        let removeBtn = document.createElement('button')
+        removeBtn.setAttribute('onclick', `removeTask(${i})`)
+        removeBtn.setAttribute('class', 'remove-task')
+        taskItem.appendChild(removeBtn)
+        let btnImg = document.createElement('img')
+        removeBtn.appendChild(btnImg)
+    }
+}
+
+function removeTask(index) {
+    tasks.splice(index, 1)
+    updateTaskList()
+}
+
+function searchTasks() {
+    let searchValue = document.getElementById('barra-pesquisa').value
+    let filteredTasks = tasks.filter(task =>
+        task.name.includes(searchValue))
+    if (filteredTasks.length > 0) {
+        updateTaskList(filteredTasks)
+        alert('A tarefa foi encontrada')
+    } else {
+        alert('A tarefa não foi encontrada')
+    }
+}
+
+document.getElementById('btn-pesquisar').addEventListener('click', searchTasks)
+document.getElementById('barra-pesquisa').addEventListener('keyup', function (event) {
+    if (event.keyCode === 13) {
+        event.preventDefault()
+        searchTasks()
+    }
+})

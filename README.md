@@ -188,7 +188,7 @@ Nesse projeto, desenvolvi uma carrinho de compras com base em um exemplo forneci
 <br />
 `flexbox` `loops` `function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `methods` `arrays` `objects` `DOM` `+`
 
-## S8-01-M1 - 01/18/23 - "[PROJETO FINAL M1: E-COMMERCE](https://mariaclaratabosa.github.io/M1-PROJETOS/src/M1-SPRINT-8/S8-01-M1.html)"
+## S8-01-M1 - 01/18/23 - "[PROJETO FINAL M1: E-COMMERCE](https://mariaclaratabosa.github.io/M1-PROJETOS/src/M1-SPRINT-8/index.html)"
 Como projeto final do módulo, desenvolvi um e-commerce seguido fielmente o layout fornecido, utilizando HTML, CSS e JavaScript. A vitrine de produtos e o carrinho foram criados dinamicamente através do DOM. É possível adicionar e remover itens do carrinho, dessa forma, é atualizada a soma dos valores, bem como a contagem de produtos. É possível, também, filtrar itens por categoria ao clicar no botão no topo da página e pesquisar o item pelo nome utilizando a barra de pesquisa. Foi implementado, também, um darkmode<br />
 <br />
 `favicon` `button` `input search` `flexbox` `webkit scrollbar` `box shadow` `webkit box` `webkit search` `overflow` `float` `loops` `function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `methods` `arrays` `objects` `DOM` `onclick` `+`
